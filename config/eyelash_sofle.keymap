@@ -29,6 +29,11 @@
 &mt {
 };
 
+&lt {
+    tapping-term-ms = <175>;
+    flavor = "balanced";
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
