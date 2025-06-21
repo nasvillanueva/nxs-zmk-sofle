@@ -59,6 +59,7 @@
 
             label = "Homerow Mod";
             quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
         };
 
         hms: homerow_mod_shift {
