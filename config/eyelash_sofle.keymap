@@ -48,7 +48,7 @@
 
         combo_caps_word {
             bindings = <&caps_word>;
-            key-positions = <40 50>;
+            key-positions = <56 60>;
             require-prior-idle-ms = <0>;
             layers = <0>;
         };
