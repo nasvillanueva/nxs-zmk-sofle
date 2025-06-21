@@ -70,13 +70,13 @@
         hms: homerow_mod_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
             label = "Homerow Mod Shift";
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
+            quick-tap-ms = <175>;
+            hold-trigger-on-release;
         };
     };
 
