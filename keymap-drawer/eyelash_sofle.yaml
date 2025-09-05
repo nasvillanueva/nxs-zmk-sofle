@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '[', s: '{'}
+  - {t: '[', h: '$$mdi:apple-keyboard-command$$', s: '{'}
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
   - {t: '$$mdi:keyboard-esc$$', h: Nav}
   - PLAY PAUSE
   - {t: '$$mdi:keyboard-return$$', h: Nav}
   - {t: '$$mdi:backspace$$', h: Symbols}
-  - {t: ']', s: '}'}
+  - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
   Symbols:
